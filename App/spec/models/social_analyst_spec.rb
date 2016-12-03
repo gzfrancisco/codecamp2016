@@ -23,4 +23,9 @@ RSpec.describe SocialAnalyst, :vcr do
     expect(filter_friends).to eq(["gzfrancisco"])
   end 
 
+  it "Give me the map of friends" do
+    map = @analyst.get_friends_map("jorge02312121","cggg88jorge")
+    expect(map).to eq({"jorge02312121": ["gzfrancisco"],"cggg88jorge": []})
+  end 
+
 end
