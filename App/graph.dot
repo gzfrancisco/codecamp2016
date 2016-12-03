@@ -1,0 +1,4 @@
+graph G {
+    node [shape = doublecircle];
+    node [shape = circle];
+    A [color=blue] B [color=blue];A -- 8;A -- 9;B -- 9;B -- 11;}
