@@ -30,19 +30,8 @@ class SocialAnalyst
   end
 
   def graph(dic)
-    %{
-graph G {
-    node [shape = doublecircle];
-    node [shape = circle];
-    <%= u1 %> [color=blue] <%= u2 %> [color=blue];
-    <% for r1.each do |e| -%>
-    <%= u1 %> -- <%= e %>;
-    <% end %>
-    <% for r2.each do |e| -%>
-    <%= u2 %> -- <%= e %>;
-    <% end %>
-}
-    }
+    u = []
+    r = []
     dic.each_pair do |key, value|
       u << key
       r << value
@@ -51,7 +40,23 @@ graph G {
     u2 = u[1]
     r1 = r[0]
     r2 = r[1]
+
+    template = "graph G {
+    node [shape = doublecircle];
+    node [shape = circle];
+    #{u1} [color=blue] #{u2} [color=blue];"
+    r1.each do |e|
+      template  << "#{u1} -- #{e};"
+    end
+    r2.each do |e|
+      template  << "#{u2} -- #{e};"
+    end
+    template << "}"
     result = ERB.new(template).result
-    `dot -Tpng #{result} -o file.png`
+    p result
+    File.open('graph.dot', "w+") do |f|
+      f.write(result)
+    end
+    `dot -Tpng graph.dot -o file.png`
   end
 end
