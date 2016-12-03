@@ -17,8 +17,10 @@ RSpec.describe SocialAnalyst, :vcr do
   end
 
   it "Give me the list of friends a acount filtered by list of followers in common" do
-    commons = @analyst.friends("music2")
-    expect(commons).to eq(["ll0l00dev"])
+    common = @analyst.common_followers("jorge02312121","cggg88jorge")
+    friends = @analyst.friends("jorge02312121")
+    filter_friends = @analyst.filter_friends(friends,common)
+    expect(filter_friends).to eq(["gzfrancisco"])
   end 
 
 end
