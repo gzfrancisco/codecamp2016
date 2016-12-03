@@ -53,6 +53,7 @@ graph G {
     u2 = u[1]
     r1 = r[0]
     r2 = r[1]
-    puts ERB.new(template).result
+    result = ERB.new(template).result
+    `dot -Tpng #{result} -o file.png`
   end
 end
