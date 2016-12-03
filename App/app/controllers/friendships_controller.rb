@@ -1,3 +1,4 @@
+require 'json'
 class FriendshipsController < ApplicationController
   def index
     analyst = SocialAnalyst.new
@@ -6,5 +7,15 @@ class FriendshipsController < ApplicationController
                           "B": [9, 11]}
     path = analyst.graph(network_dictionary)
     p path
+  end
+
+  def show
+    network_dictionary = {"A": ["a", "e", "i"],
+                          "B": ["b", "c", "d", "e"]}
+    analyst = SocialAnalyst.new
+
+    @result = analyst.json_nodes(network_dictionary)
+    p @result
+    render :layout => false
   end
 end

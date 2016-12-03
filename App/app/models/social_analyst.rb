@@ -61,4 +61,39 @@ class SocialAnalyst
     end
     `dot -Tpng graph.dot -o file.png`
   end
+
+  def json_nodes(dic)
+    u = []
+    r = []
+    nodes = []
+    dic.each_pair do |key, value|
+      nodes << {name: key, group: 1}
+      value.each do |e|
+        nodes << {name: e, group: 2}
+      end
+    end
+    # u.each do |usr|
+
+    # end
+    # r.each do |rel|
+    #   rel.each do |e|
+    #   end
+    # end
+    elements = []
+    links = []
+    dic.each_pair do |key, value|
+      elements << key
+      value.each do |e|
+        elements << e
+        p "#{key}, #{e}"
+        links << {source: elements.find_index(key), target: elements.find_index(e), weight: 1}
+      end
+    end
+
+
+
+    { nodes: nodes,
+      links: links
+    }
+  end
 end
