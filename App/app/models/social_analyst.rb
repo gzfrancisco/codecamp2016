@@ -25,6 +25,10 @@ class SocialAnalyst
     followers.map { |e| e.screen_name } & friends.map { |e| e.screen_name }
   end
 
+  def filter_friends(friends,common)
+    friends & common
+  end
+
   def graph(dic)
     %{
 graph G {
