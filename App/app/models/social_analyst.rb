@@ -29,6 +29,17 @@ class SocialAnalyst
     friends & common
   end
 
+  def get_friends_map(first_acount,second_acount)
+    common = common_followers(first_acount,second_acount)
+    friends_f = friends(first_acount)
+    friends_s = friends(second_acount)
+
+    friends_s = filter_friends(friends_s,common)
+    friends_f = filter_friends(friends_f,common)
+
+    {"#{first_acount}": friends_f,"#{second_acount}": friends_f}
+  end
+
   def graph(dic)
     u = []
     r = []
