@@ -31,5 +31,28 @@ class SocialAnalyst
     followers.select { |e| e[:following] }.map { |e| e[:screen_name] }
   end
 
-
+  def graph(dic)
+    %{
+graph G {
+    node [shape = doublecircle];
+    node [shape = circle];
+    <%= u1 %> [color=blue] <%= u2 %> [color=blue];
+    <% for r1.each do |e| -%>
+    <%= u1 %> -- <%= e %>;
+    <% end %>
+    <% for r2.each do |e| -%>
+    <%= u2 %> -- <%= e %>;
+    <% end %>
+}
+    }
+    dic.each_pair do |key, value|
+      u << key
+      r << value
+    end
+    u1 = u[0]
+    u2 = u[1]
+    r1 = r[0]
+    r2 = r[1]
+    puts ERB.new(template).result
+  end
 end
