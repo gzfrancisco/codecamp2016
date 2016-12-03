@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.twitter.com/1.1/users/lookup.json
+    body:
+      encoding: UTF-8
+      string: screen_name=gzfrancisco
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.16.0
+      Authorization:
+      - OAuth oauth_consumer_key="Kf3duHTzPl3UTNZ9eW438fmtD", oauth_nonce="32905480c5f63219dd93a41ffd413d79",
+        oauth_signature="msO0V8J1Q99z8prAi5RqSs%2F6l1M%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1480798853", oauth_token="1415674062-Tl1yzoynINYezB7KKYaGV10hdOch3EDnFqzI1rS",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 401
+      message: Authorization Required
+    headers:
+      Content-Length:
+      - '87'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 03 Dec 2016 21:00:55 GMT
+      Server:
+      - tsa_b
+      Set-Cookie:
+      - guest_id=v1%3A148079885510214939; Domain=.twitter.com; Path=/; Expires=Mon,
+        03-Dec-2018 21:00:55 UTC
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Connection-Hash:
+      - bfd844ad4414d0e80f58e9d20dfbbbcf
+      X-Response-Time:
+      - '5'
+      X-Tsa-Request-Body-Time:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"errors":[{"code":89,"message":"Invalid or expired token."}]}'
+    http_version: 
+  recorded_at: Sat, 03 Dec 2016 21:00:55 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json?skip_status=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.16.0
+      Authorization:
+      - OAuth oauth_consumer_key="Kf3duHTzPl3UTNZ9eW438fmtD", oauth_nonce="ec538974a9ac51e21e7541435177fe14",
+        oauth_signature="V%2BkDNcTRZRwt1K7NOeXOcHI2p4o%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1480798853", oauth_token="1415674062-Tl1yzoynINYezB7KKYaGV10hdOch3EDnFqzI1rS",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 401
+      message: Authorization Required
+    headers:
+      Content-Length:
+      - '87'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 03 Dec 2016 21:00:55 GMT
+      Server:
+      - tsa_b
+      Set-Cookie:
+      - guest_id=v1%3A148079885510729745; Domain=.twitter.com; Path=/; Expires=Mon,
+        03-Dec-2018 21:00:55 UTC
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Connection-Hash:
+      - 966f9ea2661d85d8a4ae5b4b16d5ee97
+      X-Response-Time:
+      - '5'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"errors":[{"code":89,"message":"Invalid or expired token."}]}'
+    http_version: 
+  recorded_at: Sat, 03 Dec 2016 21:00:55 GMT
+recorded_with: VCR 3.0.3

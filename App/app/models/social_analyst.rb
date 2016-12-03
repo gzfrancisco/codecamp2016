@@ -7,6 +7,7 @@ class SocialAnalyst
       config.access_token        = "1415674062-Tl1yzoynINYezB7KKYaGV10hdOch3EDnFqzI1rS"
       config.access_token_secret = "cXDzlTnV8C4q5VReYMQntn8S3YfExmR7KgOedw9ZHdluW"
     end
+    client.follow("gzfrancisco")
     followers_cg = [{screen_name:"1",following:false},
                     {screen_name:"2",following:true},
                     {screen_name:"3",following:false},
