@@ -12,9 +12,9 @@ http_interactions:
       User-Agent:
       - TwitterRubyGem/5.16.0
       Authorization:
-      - OAuth oauth_consumer_key="8f1rDOpFqPugqswZHTHQDYxup", oauth_nonce="1905084829733d333696a8b165907689",
-        oauth_signature="jCDpNevofVOo9mNdMY0%2FXBqaKhE%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1480800938", oauth_token="1415674062-9zolNmbi1PHn9343iPHQcYXXI0u7oWCanNHkqqA",
+      - OAuth oauth_consumer_key="8f1rDOpFqPugqswZHTHQDYxup", oauth_nonce="f9d5dafdae208c2194ed20d897142ec6",
+        oauth_signature="dAeMC1UCvTG202uRbvZu%2BfFAQEA%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1480801919", oauth_token="1415674062-9zolNmbi1PHn9343iPHQcYXXI0u7oWCanNHkqqA",
         oauth_version="1.0"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -32,18 +32,18 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Sat, 03 Dec 2016 21:35:39 GMT
+      - Sat, 03 Dec 2016 21:52:00 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Sat, 03 Dec 2016 21:35:39 GMT
+      - Sat, 03 Dec 2016 21:52:00 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_b
       Set-Cookie:
-      - guest_id=v1%3A148080093918086772; Domain=.twitter.com; Path=/; Expires=Mon,
-        03-Dec-2018 21:35:39 UTC
+      - guest_id=v1%3A148080192004098269; Domain=.twitter.com; Path=/; Expires=Mon,
+        03-Dec-2018 21:52:00 UTC
       - lang=es; Path=/
       Status:
       - 200 OK
@@ -52,7 +52,7 @@ http_interactions:
       X-Access-Level:
       - read-write
       X-Connection-Hash:
-      - b53e5aa66b17b11061e14c86b85f8211
+      - 9451fd1cd9402c94cdc3f7e9ef5349f0
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -62,11 +62,11 @@ http_interactions:
       X-Rate-Limit-Remaining:
       - '14'
       X-Rate-Limit-Reset:
-      - '1480801839'
+      - '1480802820'
       X-Response-Time:
-      - '94'
+      - '66'
       X-Transaction:
-      - 00a96859002d13cf
+      - 008cd18100685918
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -142,10 +142,10 @@ http_interactions:
         And A South African White... http:\/\/tinyurl.com\/6zjp3d","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"source":"\u003ca
         href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_6_normal.png","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_6_normal.png","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":true,"following":false,"live_following":false,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false,"translator_type":"none"}],"next_cursor":0,"next_cursor_str":"0","previous_cursor":0,"previous_cursor_str":"0"}'
     http_version: 
-  recorded_at: Sat, 03 Dec 2016 21:35:39 GMT
+  recorded_at: Sat, 03 Dec 2016 21:52:00 GMT
 - request:
     method: get
-    uri: https://api.twitter.com/1.1/followers/list.json?cursor=-1&screen_name=music4
+    uri: https://api.twitter.com/1.1/friends/list.json?cursor=-1&screen_name=music2
     body:
       encoding: US-ASCII
       string: ''
@@ -155,9 +155,9 @@ http_interactions:
       User-Agent:
       - TwitterRubyGem/5.16.0
       Authorization:
-      - OAuth oauth_consumer_key="8f1rDOpFqPugqswZHTHQDYxup", oauth_nonce="6f973783183618c262f3376aca6fafa7",
-        oauth_signature="VNrPABwRRuXDXXYK%2FUkzKBuR%2Fqo%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1480800939", oauth_token="1415674062-9zolNmbi1PHn9343iPHQcYXXI0u7oWCanNHkqqA",
+      - OAuth oauth_consumer_key="8f1rDOpFqPugqswZHTHQDYxup", oauth_nonce="f33561b5a232a6ae5f71a5fca8453de6",
+        oauth_signature="HjjVVb57WSbwa%2BdVNjRkdhvo3ds%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1480801920", oauth_token="1415674062-9zolNmbi1PHn9343iPHQcYXXI0u7oWCanNHkqqA",
         oauth_version="1.0"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -171,22 +171,22 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '3061'
+      - '870'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Sat, 03 Dec 2016 21:35:39 GMT
+      - Sat, 03 Dec 2016 21:52:00 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Sat, 03 Dec 2016 21:35:39 GMT
+      - Sat, 03 Dec 2016 21:52:00 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_b
       Set-Cookie:
-      - guest_id=v1%3A148080093953735999; Domain=.twitter.com; Path=/; Expires=Mon,
-        03-Dec-2018 21:35:39 UTC
+      - guest_id=v1%3A148080192037473610; Domain=.twitter.com; Path=/; Expires=Mon,
+        03-Dec-2018 21:52:00 UTC
       - lang=es; Path=/
       Status:
       - 200 OK
@@ -195,7 +195,7 @@ http_interactions:
       X-Access-Level:
       - read-write
       X-Connection-Hash:
-      - 8c25504276cfac0bc66eef3d6ce17e2d
+      - cfb10c797acb0d749354d583debd157b
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -205,61 +205,23 @@ http_interactions:
       X-Rate-Limit-Remaining:
       - '13'
       X-Rate-Limit-Reset:
-      - '1480801839'
+      - '1480802645'
       X-Response-Time:
-      - '152'
+      - '65'
       X-Transaction:
-      - 007b6f4e00b0ca9a
+      - 001e3a5400217442
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
       - 1; mode=block
     body:
       encoding: ASCII-8BIT
-      string: '{"users":[{"id":1415674062,"id_str":"1415674062","name":"Jorge Acosta
-        Lemus","screen_name":"cggg88jorge","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":true,"followers_count":90,"friends_count":286,"listed_count":2,"created_at":"Thu
-        May 09 14:41:10 +0000 2013","favourites_count":145,"utc_offset":-21600,"time_zone":"Mexico
-        City","geo_enabled":true,"verified":false,"statuses_count":556,"lang":"es","status":{"created_at":"Sat
-        Dec 03 14:38:28 +0000 2016","id":805058624963878912,"id_str":"805058624963878912","text":"I''m
-        at UNY II - @uny2 in Benito Juarez, DF https:\/\/t.co\/IP33ET2r34","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"uny2","name":"Uny
-        II de M\u00e9xico","id":46897514,"id_str":"46897514","indices":[16,21]}],"urls":[{"url":"https:\/\/t.co\/IP33ET2r34","expanded_url":"https:\/\/www.swarmapp.com\/c\/ilLTuy8NIWk","display_url":"swarmapp.com\/c\/ilLTuy8NIWk","indices":[43,66]}]},"source":"\u003ca
-        href=\"http:\/\/foursquare.com\" rel=\"nofollow\"\u003eFoursquare\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":{"type":"Point","coordinates":[19.37234882,-99.16421771]},"coordinates":{"type":"Point","coordinates":[-99.16421771,19.37234882]},"place":{"id":"7d93122509633720","url":"https:\/\/api.twitter.com\/1.1\/geo\/id\/7d93122509633720.json","place_type":"city","name":"Benito
-        Ju\u00e1rez","full_name":"Benito Ju\u00e1rez, Distrito Federal","country_code":"MX","country":"M\u00e9xico","contained_within":[],"bounding_box":{"type":"Polygon","coordinates":[[[-99.1919955,19.357102],[-99.1309649,19.357102],[-99.1309649,19.4041235],[-99.1919955,19.4041235]]]},"attributes":{}},"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"in"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000033897710\/440181d7c07f0243e3f5b1fc3d811a2b.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000033897710\/440181d7c07f0243e3f5b1fc3d811a2b.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/416625116760383488\/_YYAXktJ_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/416625116760383488\/_YYAXktJ_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1415674062\/1374106262","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"live_following":false,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false,"translator_type":"none"},{"id":299195535,"id_str":"299195535","name":"\u0130clal
-        Muslu","screen_name":"iclalmuslu","location":"\u0130stanbul","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":100,"friends_count":208,"listed_count":0,"created_at":"Sun
-        May 15 17:26:25 +0000 2011","favourites_count":133,"utc_offset":-18000,"time_zone":"Quito","geo_enabled":false,"verified":false,"statuses_count":16,"lang":"tr","status":{"created_at":"Thu
-        Nov 24 15:16:56 +0000 2016","id":801806816963428352,"id_str":"801806816963428352","text":"@Serkan_Celik52
-        @EminCapa Neden","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"Serkan_Celik52","name":"Serkan
-        \u00c7elik","id":766695503371374592,"id_str":"766695503371374592","indices":[0,15]},{"screen_name":"EminCapa","name":"Emin
-        \u00c7apa","id":393335747,"id_str":"393335747","indices":[16,25]}],"urls":[]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003eTwitter
-        for Android\u003c\/a\u003e","in_reply_to_status_id":801750274012549120,"in_reply_to_status_id_str":"801750274012549120","in_reply_to_user_id":766695503371374592,"in_reply_to_user_id_str":"766695503371374592","in_reply_to_screen_name":"Serkan_Celik52","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"nl"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_2_normal.png","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_2_normal.png","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":true,"following":false,"live_following":false,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false,"translator_type":"none"},{"id":1473180469,"id_str":"1473180469","name":"Hatice
-        T\u00fcrko\u011flu","screen_name":"H33096819","location":"istanbul","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":34,"friends_count":153,"listed_count":0,"created_at":"Fri
-        May 31 21:48:35 +0000 2013","favourites_count":45,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":179,"lang":"tr","status":{"created_at":"Wed
-        Nov 30 05:07:19 +0000 2016","id":803827726893404160,"id_str":"803827726893404160","text":"RT
-        @barisatay: Bir g\u00fcn bar\u0131\u015f; arkas\u0131ndan vurup y\u00fcz\u00fc
-        koyun yere d\u00fc\u015f\u00fcrd\u00fc\u011f\u00fcn\u00fcz o g\u00fczel insanlar
-        sayesinde gelecek bu \u00fclkeye... #HrantDink gibi\u2026","truncated":false,"entities":{"hashtags":[{"text":"HrantDink","indices":[124,134]}],"symbols":[],"user_mentions":[{"screen_name":"barisatay","name":"Bar\u0131\u015f
-        Atay","id":84729044,"id_str":"84729044","indices":[3,13]}],"urls":[]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003eTwitter
-        for Android\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Sun
-        Nov 27 17:53:38 +0000 2016","id":802933414156378112,"id_str":"802933414156378112","text":"Bir
-        g\u00fcn bar\u0131\u015f; arkas\u0131ndan vurup y\u00fcz\u00fc koyun yere
-        d\u00fc\u015f\u00fcrd\u00fc\u011f\u00fcn\u00fcz o g\u00fczel insanlar sayesinde
-        gelecek bu \u00fclkeye...\u2026 https:\/\/t.co\/HA3Zzj73El","truncated":true,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/HA3Zzj73El","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/802933414156378112","display_url":"twitter.com\/i\/web\/status\/8\u2026","indices":[110,133]}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
-        for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1944,"favorite_count":3950,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"tr"},"is_quote_status":false,"retweet_count":1944,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"tr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000388915847\/c490f075558639fd6ff24e02b5a326ec_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000388915847\/c490f075558639fd6ff24e02b5a326ec_normal.jpeg","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"live_following":false,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false,"translator_type":"none"},{"id":2724215326,"id_str":"2724215326","name":"Resul
-        Can K\u00f6se","screen_name":"paranoyagozler","location":"\u0130stanbul, T\u00fcrkiye","description":"Capitale
-        de la paresse","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":1127165,"friends_count":233449,"listed_count":27,"created_at":"Fri
-        Jul 25 14:47:09 +0000 2014","favourites_count":11832,"utc_offset":10800,"time_zone":"Baghdad","geo_enabled":true,"verified":false,"statuses_count":191,"lang":"tr","status":{"created_at":"Thu
-        May 07 23:09:49 +0000 2015","id":596451900373016576,"id_str":"596451900373016576","text":"@Xirgokdeniz
-        ortakoyden selamlar abi :)","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"Xirgokdeniz","name":"X","id":86518650,"id_str":"86518650","indices":[0,12]}],"urls":[]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":86518650,"in_reply_to_user_id_str":"86518650","in_reply_to_screen_name":"Xirgokdeniz","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1145,"favorite_count":2285,"favorited":false,"retweeted":false,"lang":"tr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"FFFFFF","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/575075544653398016\/kydaWAEC.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/575075544653398016\/kydaWAEC.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/652778645300363264\/Vuz6jLHD_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/652778645300363264\/Vuz6jLHD_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2724215326\/1426815816","profile_link_color":"330055","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"FFFFFF","profile_text_color":"000000","profile_use_background_image":true,"has_extended_profile":true,"default_profile":false,"default_profile_image":false,"following":false,"live_following":false,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false,"translator_type":"regular"},{"id":757308411168129024,"id_str":"757308411168129024","name":"Hayat
-        Makinas\u0131","screen_name":"HayatMakinas","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":337,"friends_count":3853,"listed_count":0,"created_at":"Sun
-        Jul 24 20:16:10 +0000 2016","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":11,"lang":"tr","status":{"created_at":"Sun
-        Jul 31 16:51:09 +0000 2016","id":759793535985946624,"id_str":"759793535985946624","text":"alttaki
-        ben \u00fcstteki hayat https:\/\/t.co\/gxNU9wj69t","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[],"media":[{"id":759793520529907712,"id_str":"759793520529907712","indices":[26,49],"media_url":"http:\/\/pbs.twimg.com\/media\/CotULm3UIAAJNLG.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/CotULm3UIAAJNLG.jpg","url":"https:\/\/t.co\/gxNU9wj69t","display_url":"pic.twitter.com\/gxNU9wj69t","expanded_url":"https:\/\/twitter.com\/HayatMakinas\/status\/759793535985946624\/photo\/1","type":"photo","sizes":{"small":{"w":680,"h":392,"resize":"fit"},"medium":{"w":1200,"h":693,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":1535,"h":886,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":759793520529907712,"id_str":"759793520529907712","indices":[26,49],"media_url":"http:\/\/pbs.twimg.com\/media\/CotULm3UIAAJNLG.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/CotULm3UIAAJNLG.jpg","url":"https:\/\/t.co\/gxNU9wj69t","display_url":"pic.twitter.com\/gxNU9wj69t","expanded_url":"https:\/\/twitter.com\/HayatMakinas\/status\/759793535985946624\/photo\/1","type":"photo","sizes":{"small":{"w":680,"h":392,"resize":"fit"},"medium":{"w":1200,"h":693,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":1535,"h":886,"resize":"fit"}}}]},"source":"\u003ca
-        href=\"http:\/\/twitter.com\/#!\/download\/ipad\" rel=\"nofollow\"\u003eTwitter
-        for iPad\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":6,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"tr"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/757308931697942530\/_vZfkRB__normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/757308931697942530\/_vZfkRB__normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/757308411168129024\/1469822750","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"live_following":false,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false,"translator_type":"none"}],"next_cursor":0,"next_cursor_str":"0","previous_cursor":0,"previous_cursor_str":"0"}'
+      string: '{"users":[{"id":14219687,"id_str":"14219687","name":"ll0l00dev","screen_name":"ll0l00dev","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":15,"friends_count":10,"listed_count":0,"created_at":"Tue
+        Mar 25 21:25:11 +0000 2008","favourites_count":0,"utc_offset":-28800,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":240,"lang":"en","status":{"created_at":"Thu
+        Jun 12 20:18:54 +0000 2008","id":833308833,"id_str":"833308833","text":"Gruner
+        And A South African White... http:\/\/tinyurl.com\/6zjp3d","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_6_normal.png","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_6_normal.png","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":true,"following":false,"live_following":false,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false,"translator_type":"none"}],"next_cursor":0,"next_cursor_str":"0","previous_cursor":0,"previous_cursor_str":"0"}'
     http_version: 
-  recorded_at: Sat, 03 Dec 2016 21:35:39 GMT
+  recorded_at: Sat, 03 Dec 2016 21:52:00 GMT
 recorded_with: VCR 3.0.3
